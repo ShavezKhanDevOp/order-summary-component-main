@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "express": "^4.17.1",
+    "yarn": "^1.22.17"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "name": "order-summary-component-main",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT"
+}

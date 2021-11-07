@@ -1,0 +1,75 @@
+body{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url("../images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+}
+
+.card{
+    margin: 65px auto ;
+    border-radius: 20px;
+}
+.card-img-top{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.order-summary{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+}
+.order-summary-des{
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #cac4c4;
+}
+.pricing-padding{
+    padding: 10px;
+}
+.pricing{
+position: relative;
+width: 30%;
+}
+.icon-music{
+    width: 40px;
+    margin: 5px;
+    right: 20px;
+    position: absolute;
+}
+.plan{
+    font-family: 'Roboto', sans-serif;
+}
+.plan-amount{
+   font-size: 0.9rem;
+   color: #cac4c4;   
+   
+}
+.btn-change{
+    color: rebeccapurple;
+    padding: 10px;
+    position: absolute;
+    left: 90px;
+    top:0px;
+    border-style: none;
+    text-decoration: none;
+}
+.btn-payment{
+    background-color: #5e3bfa;
+    color: #fff;
+    border-radius: 10px;
+    margin: 10px; 
+    border-style: none;   
+    
+}
+.btn-payment:hover{
+    background-color: #937aff;
+    color: #fff;   
+}
+.btn-cancel{
+    color: gray;
+    border-radius: 10px;
+    border-style: none;   
+}
+.btn-cancel:hover{
+    color: #937aff;
+}
